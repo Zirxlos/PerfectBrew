@@ -19,6 +19,7 @@ access to an experimentation page, a tea page and a coffee page where there will
 ## Current version's capability
 
 French press brew: calculate how much water is needed
+Sencha green tea: calculate how much water is needed for two methods (trad and flash)
 
 ## How to use it
 
