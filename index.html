@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
     <title>PerfectBrew</title>
 </head>
 <body>
     <form oninput="water_mass.value=parseInt(coffee_mass.value) / 16 * 250">
-        <input type="text" id="mass" name="coffee_mass">
+        <input type="text" id="mass" name="coffee_mass" size="5">
         <label for="coffee_mass">g coffee needs</label>
-        <output name="water_mass"></output>
+        <output name="water_mass" default="0">x</output>
         g water
     </form>
 </body>
