@@ -19,7 +19,7 @@
   </header>
   
   <div class="container">
-    <form oninput="water_mass.value=parseInt(coffee_mass.value) / 16 * 250">
+    <form oninput="water_mass.value=parseFloat(coffee_mass.value) / 16 * 250">
       <input type="text" id="mass" name="coffee_mass" size="5">
       <label for="coffee_mass">g coffee needs</label>
       <output name="water_mass" default="0">x</output>

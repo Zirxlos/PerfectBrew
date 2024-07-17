@@ -19,7 +19,7 @@
   </header>
 
   <div class="container">
-    <form oninput="water_mass.value=parseInt(tea_mass_flash.value) / 5 * 250">
+    <form oninput="water_mass.value=parseFloat(tea_mass_flash.value) / 5 * 250">
       <label for="tea_mass_flash">Flash method:</label>
       <input type="text" id="mass" name="tea_mass_flash" size="5">
       g tea needs
@@ -29,7 +29,7 @@
   </div>
 
   <div class="container">
-    <form oninput="water_mass.value=parseInt(tea_mass_trad.value) / 5 * 125">
+    <form oninput="water_mass.value=parseFloat(tea_mass_trad.value) / 5 * 125">
       <label for="tea_mass_trad">Traditionnal method:</label>
       <input type="text" id="mass" name="tea_mass_trad" size="5">
       g of tea needs
